@@ -2,7 +2,7 @@
 title: WrenchPDF
 emoji: 🔧
 colorFrom: blue
-colorTo: orange
+colorTo: yellow
 sdk: gradio
 sdk_version: "4.19.1"
 app_file: app.py
