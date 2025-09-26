@@ -1,0 +1,38 @@
+[project]
+name = "wrentchpdf"
+dynamic = ["version"]
+description = "A lightweight web tool to merge and tweak images or PDFs into a single polished PDF."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "gradio",
+  "Pillow",
+  "pypdf",
+  "pypdfium2>=4.30.0",
+]
+
+[build-system]
+requires = ["setuptools>=64", "setuptools-scm>=8"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+write_to = "wrentchpdf/version.py"
+version_scheme = "post-release"
+local_scheme = "node-and-date"
+
+[project.optional-dependencies]
+dev = ["ruff"]
+
+[project.scripts]
+runserver = "wrentchpdf.cli:main"
+
+[tool.ruff]
+select = ["E", "F", "W", "C", "N", "I"]
+line-length = 120
+
+[tool.ruff.lint.isort]
+force-single-line = false
+force-sort-within-sections = true
+
+[tool.uv]
+package = true

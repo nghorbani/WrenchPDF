@@ -1,0 +1,4 @@
+gradio
+Pillow
+pypdf
+pypdfium2>=4.30.0

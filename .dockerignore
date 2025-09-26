@@ -1,0 +1,16 @@
+.git
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.swp
+.eggs
+*.egg-info
+build
+dist
+.wheels
+.venv
+.uv-cache
+.gradio
+.ruff_cache
+Dockerfile
