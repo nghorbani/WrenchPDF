@@ -1,3 +1,14 @@
+---
+title: WrenchPDF
+emoji: 🔧
+colorFrom: blue
+colorTo: orange
+sdk: gradio
+sdk_version: "4.19.1"
+app_file: app.py
+pinned: false
+---
+
 # WrenchPDF — Offline PDF Editor (merge • reorder • compress)
 
 WrenchPDF is a **local, privacy-first PDF editor**. Combine images/PDFs, **drag-to-reorder pages**, set filename, and export—**no uploads, no tracking**.
