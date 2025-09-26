@@ -1,12 +1,14 @@
 ---
 title: WrenchPDF
-emoji: 🔧
+emoji: 💻
 colorFrom: blue
 colorTo: yellow
-sdk: gradio
-sdk_version: "4.19.1"
+sdk: docker
+sdk_version: 5.47.1
 app_file: app.py
 pinned: false
+license: apache-2.0
+short_description: Offline PDF Editor (merge • reorder • compress)
 ---
 
 # WrenchPDF — Offline PDF Editor (merge • reorder • compress)
