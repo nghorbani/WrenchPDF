@@ -21,7 +21,7 @@ Simple desktop-hosted web UI for assembling a single PDF from a mix of images an
 
 
 <p align="center">
-  <img src="wrentchpdf/assets/screenshot.png" alt="WrentchPDF application screenshot" width="600" />
+  <img src="wrenchpdf/assets/screenshot.png" alt="WrenchPDF application screenshot" width="600" />
 </p>
 
 <a href="https://huggingface.co/spaces/nghorbani/wrentchpdf" title="Open the Hugging Face demo" target="_blank">

@@ -1,10 +1,10 @@
-"""Hugging Face entrypoint for the WrentchPDF Gradio app."""
+"""Hugging Face entrypoint for the WrenchPDF Gradio app."""
 
 from __future__ import annotations
 
 import os
 
-from wrentchpdf.app import run
+from wrenchpdf.app import run
 
 
 def main() -> None:

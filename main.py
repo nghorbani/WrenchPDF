@@ -1,7 +1,6 @@
 """Entrypoint for running the PDF creator application."""
 
-from wrentchpdf.app import run
-
+from wrenchpdf.app import run
 
 if __name__ == "__main__":
     run()
